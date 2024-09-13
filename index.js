@@ -20,8 +20,8 @@ app.get("/send", (req,res)=> {
         secure: true,
         port: 465,
         auth: {
-            user: 'nileshchauhan5911@gmail.com',
-            pass: "pcnmimcutzlkhrmc"
+            user: 'mail.eazzystore@gmail.com',
+            pass: "osungojefjbkptng"
         },
         tls: {rejectUnauthorized: false}
     })
