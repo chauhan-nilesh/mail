@@ -27,7 +27,7 @@ app.get("/send", (req,res)=> {
     })
 
     const receiver = {
-        from: "mail.eazzystore@gmail.com",
+        from: "Eazzy <mail.eazzystore@gmail.com>",
         to: "nileshchauhan3998@gmail.com",
         subject: "OTP Verification",
         text: `Your One Time Password(OTP) is ${OTP}`,
